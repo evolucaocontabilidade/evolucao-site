@@ -15,14 +15,14 @@ export function Footer() {
       <div className="flex items-center justify-center flex-col gap-4 lg:w-2/5 ">
         <div className="flex items-center justify-center gap-7 lg:mt-7 mt-4 lg:w-1/5">
           <a
-            href="https://github.com/mattmascarenhas"
+            href="mailto:contato@evolucaocontabilidade.org "
             target="_blank"
             className="mr-3"
           >
             <Mail />
           </a>
           <a
-            href="https://www.instagram.com/mattmascarenhas/"
+            href="https://www.instagram.com/evolucaocontabilidadee/"
             target="_blank"
             className="mt-1"
           >
@@ -45,13 +45,15 @@ export function Footer() {
         </div>
       </div>
       <div className="lg:w-1/5 space-y- justify-start flex flex-col items-end pt-10">
-        <div>
-          <img
-            src="maps2.png"
-            alt=""
-            className="lg:w-[200px] w-[200px] mt-6 lg:mt-0 rounded-lg shadow-lg border border-gray-200"
-          />
-        </div>
+        <a href="https://maps.app.goo.gl/e3NwKtdZE6ATn8219" target="_blank">
+          <div>
+            <img
+              src="maps2.png"
+              alt=""
+              className="lg:w-[200px] w-[200px] mt-6 lg:mt-0 rounded-lg shadow-lg border border-gray-200"
+            />
+          </div>
+        </a>
       </div>
     </div>
   );

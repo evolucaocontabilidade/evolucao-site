@@ -124,7 +124,7 @@ export function Header() {
           >
             <Link
               activeClass="active"
-              to="experiencia"
+              to="depoimentos"
               spy={true}
               smooth={true}
               duration={200}
